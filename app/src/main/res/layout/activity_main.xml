@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.xiao5.tee.MainActivity">
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="45dp"
+        tools:layout_editor_absoluteY="301dp"
+        tools:layout_editor_absoluteX="82dp"
+        tools:ignore="MissingConstraints">
+        <Button
+        android:id="@+id/button_true"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="323dp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:ignore="MissingConstraints"
+        android:text="@string/true_button"/>
+        <Button
+        android:id="@+id/button_false"
+        android:layout_width="73dp"
+        android:layout_height="38dp"
+        tools:layout_editor_absoluteY="136dp"
+        tools:layout_editor_absoluteX="140dp"
+        tools:ignore="MissingConstraints"
+        android:text="@string/false_button"/>
+        <Button
+            android:id="@+id/button_next"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:text="@string/next_button"
+            tools:layout_editor_absoluteY="365dp"
+            tools:layout_editor_absoluteX="157dp"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

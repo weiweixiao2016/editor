@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TEE</string>
+    <string name="question_text">你喜欢我吗</string>
+    <string name="true_button">是</string>
+    <string name="error">回答错误</string>
+    <string name="false_button">不是</string>
+    <string name="next_button"> Next</string>
+    <string name="wrong_toast">那你的良心不会痛吗？手机将在30秒内关机</string>
+    <string name="correct_toast">恭喜你回答正确，可以下一题了</string>
+    <string name="question_1">世界上最大的羊是是不是太平羊？</string>
+    <string name="question_2">世界上最难吃的羊是什么盘羊？</string>
+    <string name="question_3">世界上最好看的羊藏羚羊？</string>
+
+</resources>
